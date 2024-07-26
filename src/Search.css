@@ -1,0 +1,36 @@
+/* Search.css */
+.search-container {
+  width: 380px;
+  max-width: 100%;
+}
+
+.search-textfield {
+  width: 100%;
+  padding: 8px 8px 8px 0; 
+}
+
+.search-textfield .MuiOutlinedInput-root {
+  border-radius: 12px;
+  width: 80%; 
+}
+
+.search-chip-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  margin-top: -43px;
+  z-index: 1;
+}
+
+.search-icon-filter {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.search-icon {
+  width: 18px;
+  height: 20px;
+  margin-left: 8px;
+}
